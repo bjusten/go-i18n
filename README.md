@@ -30,7 +30,7 @@ func main() {
 	// Create new catalog and initialize it using defaults
 	catalog, err := i18n.NewCatalog().Initialize()
 	if err != nil {
-    	panic(fmt.Sprintf("failed to load locales: %v", err))
+		panic(fmt.Sprintf("failed to load locales: %v", err))
 	}
 
 	// Create new catalog reader, specifying the locale and catalog, returning a new context
