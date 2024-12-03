@@ -37,7 +37,7 @@ The KeyPair File System Parser is an implementation of the Parser interface.
 It reads the configured directories and attempts to load all files it finds within.
 It reads each file line-by-line and parses each line assuming the 'key=value' format.
 
-An example english local file, such as `./locales/en/entries.i18n`:
+An example english locale file, such as `./locales/en/entries.i18n`:
 
     key-1=value-1
     key-2=value-2
