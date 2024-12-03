@@ -1,0 +1,16 @@
+{
+    "locales": {
+        "en": {
+            "key-1": {
+                "value": "Value 1",
+                "description": "English key and value pair"
+            }
+        },
+        "fr": {
+            "key-1": {
+                "value": "Valeur 1",
+                "description": "Paire clé et valeur française"
+            }
+        }
+    }
+}
